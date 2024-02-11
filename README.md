@@ -1,13 +1,11 @@
 # Archibus Quest
 
-You are the Director of a Section of the Department of Procurement and Efficiency (DoPE).
+You are the Director of a Section of the **Department of Procurement and Efficiency (DoPE)**.
 Your Department has recently switched to a hotelling model, so your employees have to hunt for a free cubicle each morning. Will you be able to sit your employees close to each other, so that they can better collaborate and have interesting watercooler chats? Watch out! Other Directors are planning to do the same, but the space is limited...
 
 ## Introduction
 
 Archibus Quest is an area control game for 2 to 6 players, I guess. The goal of the game is to place meeples of your color onto desk tiles on the game board and build the largest block of adjacent meeples of your color.
-
-> _Adjacent meeples_: two meeples are considered adjacent if they are placed on two desk tiles that share one border. Two meeples are not considered adjactent if the two desk tiles they are placed on share no border or share only a corner.
 
 ## Game contents
 
@@ -39,6 +37,8 @@ This content cannot be downloaded, you must procure it yourself:
 ## Special events
 
 ## Scoring
+
+> _Adjacent meeples_: two meeples are considered adjacent if they are placed on two desk tiles that share one border. Two meeples are not considered adjactent if the two desk tiles they are placed on share no border or share only a corner.
 
 ## Game end
 

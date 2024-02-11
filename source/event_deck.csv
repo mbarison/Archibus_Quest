@@ -1,0 +1,24 @@
+title,description,color
+Fire Alarm,Remove all meeples from the five desks surrounding Fire Exit North,#ff0000
+Fire Alarm,Remove all meeples from the five desks surrounding Fire Exit South,#ff0000
+Fire Alarm,Remove all meeples from the five desks surrounding Fire Exit East,#ff0000
+Fire Alarm,Remove all meeples from the five desks surrounding Fire Exit West,#ff0000
+Bedbugs,Place the bedbugs; each turn roll 1D6: 1-the bedbugs disappear; 2-move the bedbugs N; 3-move the bedbugs E; 4-move the bedbugs S; 5-move the bedbugs W; 6-add another bedbug if available,#753104
+Buddies,Move up to two meeples next to another one of the same color,#5c0475
+Buddies,Move up to two meeples next to another one of the same color,#5c0475
+Buddies,Move up to two meeples next to another one of the same color,#5c0475
+Quiet Zone,Remove one meeple from a light desk,#eeeeee
+Quiet Zone,Remove one meeple from a dark desk,#eeeeee
+Quiet Zone,Remove one meeple from a light desk,#eeeeee
+Quiet Zone,Remove one meeple from a dark desk,#eeeeee
+Partition,Draw up to three consectuive partition walls between desks; do not completely block the fire exits or the elevator,#041775
+Partition,Draw up to three consectuive partition walls between desks; do not completely block the fire exits or the elevator,#041775
+Partition,Draw up to three consectuive partition walls between desks; do not completely block the fire exits or the elevator,#041775
+Faulty Equipment,Place a Faulty Equipment Token on a desk; The desk becomes unavailable for the rest of the game,#f9e909
+Faulty Equipment,Place a Faulty Equipment Token on a desk; The desk becomes unavailable for the rest of the game,#f9e909
+Faulty Equipment,Place a Faulty Equipment Token on a desk; The desk becomes unavailable for the rest of the game,#f9e909
+Divisional Town Hall,Pick a player (including yourself) and remove a group of adjacent meeples; the player scores 1 point for each meeple in the group,#f97109
+Divisional Town Hall,Pick a player (including yourself) and remove a group of adjacent meeples; the player scores 1 point for each meeple in the group,#f97109
+In and Out,Place up to four meeples on all free desks adjacent to the elevator,#09cdf9
+,,
+,,

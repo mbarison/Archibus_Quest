@@ -1,0 +1,14 @@
+PAGE = 21.6, 27.9, PORTRAIT, HV
+
+LINK = event_deck.csv
+
+RECTANGLE = ,0,0,100%,100%,[color]
+RECTANGLE = ,5%,5%,90%,90%,#ffffff
+
+FONT = Arial, 24, BT, #000000
+TEXT= ,[title],10%,5%,80%,25%,CENTER,wordwrap
+
+FONT = Arial, 14, BT, #000000
+TEXT= , [description], 5%, 30%, 90%, 65%, center, wordwrap
+
+SAVEPDF=event_deck.pdf
