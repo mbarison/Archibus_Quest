@@ -1,11 +1,25 @@
-canvassize=16,16
-[ch]=framebox(1,1,14,14,2,2,E)
-{[ch_white]=framelist(cha1,chc1,che1,chg1,chb2,chd2,chf2,cha3,chc3,che3,chg3,chb4,chf4,
-cha5,chc5,che5,chg5,chb6,chd6,chf6,cha7,chc7,che7,chg7)}
-{[ch_black]=framelist(chb1,chf1,cha2,chc2,che2,chg2,chb3,chd3,chf3,chc4,che4,
-chb5,chd5,chf5,cha6,chc6,che6,chg6,chb7,chf7)}
+canvassize=24,24
+[ch]=framebox(1,1,18,18,2,2,E)
+{[ch_white]=framelist(cha1,chc1,chg1,chi1,
+                      chb2,chd2,chf2,chh2,
+                      cha3,chc3,che3,chg3,chi3,
+                      chb4,chd4,chf4,chh4,
+                      chc5,chg5,
+                      chb6,chd6,chf6,chh6,
+                      cha7,chc7,che7,chg7,chi7,
+                      chb8,chd8,chf8,chh8,
+                      cha9,chc9,chg9,chi9)}
+{[ch_black]=framelist(chb1,chd1,chf1,chh1,
+                      cha2,chc2,che2,chg2,chi2,
+                      chb3,chd3,chf3,chh3,
+                      cha4,chc4,che4,chg4,chi4,
+                      chb5,chd5,chf5,chh5,
+                      cha6,chc6,che6,chg6,chi6,
+                      chb7,chd7,chf7,chh7,
+                      cha8,chc8,che8,chg8,chi8,
+                      chb9,chd9,chf9,chh9)}
 
-{[e_exit]=framelist(chd1,cha4,chg4,chd7)}
+{[e_exit]=framelist(che1,cha5,chi5,che9)}
 
 rectangle=0,<ch_white>,#EEEEEE
 IMAGE  = 0, "icons8-desk-60.png", <ch_white>, 0, NP,100,0,0,0,0,1,1
@@ -14,16 +28,16 @@ rectangle=0,<ch_black>,#BBBBBB
 IMAGE  = 0, "icons8-desk-60.png", <ch_black>, 0, NP,100,0,0,0,0,1,1
 
 rectangle=0,<e_exit>,#00BB00
-IMAGE  = 0, "icons8-fire-exit-96.png", <chd1>, 0, NP
-IMAGE  = 0, "icons8-fire-exit-96.png", <cha4>, 270, NP
-IMAGE  = 0, "icons8-fire-exit-96.png", <chg4>, 90, NP
-IMAGE  = 0, "icons8-fire-exit-96.png", <chd7>, 180, NP
+IMAGE  = 0, "icons8-fire-exit-96.png", <che1>, 0, NP
+IMAGE  = 0, "icons8-fire-exit-96.png", <cha5>, 270, NP
+IMAGE  = 0, "icons8-fire-exit-96.png", <chi5>, 90, NP
+IMAGE  = 0, "icons8-fire-exit-96.png", <che9>, 180, NP
 
-rectangle=0,<chd4>,#00BBBB
-IMAGE  = 0, "icons8-elevator-60.png", <chd4>, 0, NP
+rectangle=0,<che5>,#00BBBB
+IMAGE  = 0, "icons8-elevator-60.png", <che5>, 0, NP
 
-[tt]=framebox(1,0,14,1,2,1,N)
-[tb]=framebox(1,15,14,1,2,1,N)
+[tt]=framebox(1,0,18,1,2,1,N)
+[tb]=framebox(1,19,18,1,2,1,N)
 [t1]=framelist(tt1,tb1)
 [t2]=framelist(tt2,tb2)
 [t3]=framelist(tt3,tb3)
@@ -32,8 +46,8 @@ IMAGE  = 0, "icons8-elevator-60.png", <chd4>, 0, NP
 [t6]=framelist(tt6,tb6)
 [t7]=framelist(tt7,tb7)
 
-[sl]=framebox(0,1,1,14,1,2,N)
-[sr]=framebox(15,1,1,14,1,2,N)
+[sl]=framebox(0,1,1,18,1,2,N)
+[sr]=framebox(19,1,1,18,1,2,N)
 [s1]=framelist(sl1,sr1)
 [s2]=framelist(sl2,sr2)
 [s3]=framelist(sl3,sr3)
@@ -44,12 +58,12 @@ IMAGE  = 0, "icons8-elevator-60.png", <chd4>, 0, NP
 
 font=Arial,24,B,#000000
 
-text=0,N,<tt4>
-text=0,E,<sr4>,CENTER,CENTER,90
-text=0,S,<tb4>,CENTER,CENTER,180
-text=0,W,<sl4>,CENTER,CENTER,270
+text=0,N,<tt5>
+text=0,E,<sr5>,CENTER,CENTER,90
+text=0,S,<tb5>,CENTER,CENTER,180
+text=0,W,<sl5>,CENTER,CENTER,270
 
 
 
 
-save=0,board.png,0,0,16,16
+save=0,board.png,0,0,20,20
