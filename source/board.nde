@@ -19,12 +19,62 @@ canvassize=24,24
                       cha8,chc8,che8,chg8,chi8,
                       chb9,chd9,chf9,chh9)}
 
+{[ch_red1]=framelist(cha1,chc1,
+                     chb2,chd2,
+                     cha3,chc3,
+                     chb4,chd4)}
+{[ch_red2]=framelist(chb1,chd1,
+                     cha2,chc2,
+                     chb3,chd3,
+                     cha4,chc4)}
+
+{[ch_blue1]=framelist(chf1,chh1,
+                     chg2,chi2,
+                     chf3,chh3,
+                     chg4,chi4)}
+{[ch_blue2]=framelist(chg1,chi1,
+                      chf2,chh2,
+                      chg3,chi3,
+                      chf4,chh4)}
+
+{[ch_green1]=framelist(cha6,chc6,
+                       chb7,chd7,
+                       cha8,chc8,
+                       chb9,chd9)}
+{[ch_green2]=framelist(chb6,chd6,
+                       cha7,chc7,
+                       chb8,chd8,
+                       cha9,chc9)}
+
+{[ch_yellow1]=framelist(chf6,chh6,
+                        chg7,chi7,
+                        chf8,chh8,
+                        chg9,chi9)}
+{[ch_yellow2]=framelist(chg6,chi6,
+                        chf7,chh7,
+                        chg8,chi8,
+                        chf9,chh9)}
+
 {[e_exit]=framelist(che1,cha5,chi5,che9)}
 
-rectangle=0,<ch_white>,#EEEEEE
-IMAGE  = 0, "icons8-desk-60.png", <ch_white>, 0, NP,100,0,0,0,0,1,1
 
+
+rectangle=0,<ch_white>,#EEEEEE
 rectangle=0,<ch_black>,#BBBBBB
+
+rectangle=0,<ch_red1>,#EE4444
+rectangle=0,<ch_red2>,#BB4444
+
+rectangle=0,<ch_blue1>,#2266FF
+rectangle=0,<ch_blue2>,#3344BB
+
+rectangle=0,<ch_green1>,#22EE22
+rectangle=0,<ch_green2>,#22BB22
+
+rectangle=0,<ch_yellow1>,#EEEE00
+rectangle=0,<ch_yellow2>,#BBBB00
+
+IMAGE  = 0, "icons8-desk-60.png", <ch_white>, 0, NP,100,0,0,0,0,1,1
 IMAGE  = 0, "icons8-desk-60.png", <ch_black>, 0, NP,100,0,0,0,0,1,1
 
 rectangle=0,<e_exit>,#00BB00
