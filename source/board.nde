@@ -19,11 +19,11 @@ canvassize=24,24
                       cha8,chc8,che8,chg8,chi8,
                       chb9,chd9,chf9,chh9)}
 
-{[ch_red1]=framelist(cha1,chc1,
+{[ch_purple1]=framelist(cha1,chc1,
                      chb2,chd2,
                      cha3,chc3,
                      chb4,chd4)}
-{[ch_red2]=framelist(chb1,chd1,
+{[ch_purple2]=framelist(chb1,chd1,
                      cha2,chc2,
                      chb3,chd3,
                      cha4,chc4)}
@@ -37,11 +37,11 @@ canvassize=24,24
                       chg3,chi3,
                       chf4,chh4)}
 
-{[ch_green1]=framelist(cha6,chc6,
+{[ch_orange1]=framelist(cha6,chc6,
                        chb7,chd7,
                        cha8,chc8,
                        chb9,chd9)}
-{[ch_green2]=framelist(chb6,chd6,
+{[ch_orange2]=framelist(chb6,chd6,
                        cha7,chc7,
                        chb8,chd8,
                        cha9,chc9)}
@@ -57,22 +57,32 @@ canvassize=24,24
 
 {[e_exit]=framelist(che1,cha5,chi5,che9)}
 
-[blue1]="#218DCD"
+[purple1]="#694062"
+[purple2]="#945a8b"
 
-rectangle=0,<ch_white>,#EEEEEE
-rectangle=0,<ch_black>,#BBBBBB
+[blue1]="#218dcd"
+[blue2]="#1b74a9"
 
-rectangle=0,<ch_red1>,#EE4444
-rectangle=0,<ch_red2>,#BB4444
+[orange1]="#cf744f"
+[orange2]="#b56645"
 
-rectangle=0,<ch_blue1>,[blue_1]
-rectangle=0,<ch_blue2>,#3344BB
+[yellow1]="#c9b958"
+[yellow2]="#e0ce62"
 
-rectangle=0,<ch_green1>,#22EE22
-rectangle=0,<ch_green2>,#22BB22
+rectangle=0,<ch_white>,#BBBBBB
+rectangle=0,<ch_black>,#EEEEEE
 
-rectangle=0,<ch_yellow1>,#EEEE00
-rectangle=0,<ch_yellow2>,#BBBB00
+rectangle=0,<ch_purple1>,[purple1]
+rectangle=0,<ch_purple2>,[purple2]
+
+rectangle=0,<ch_blue1>,[blue1]
+rectangle=0,<ch_blue2>,[blue2]
+
+rectangle=0,<ch_orange1>,[orange1]
+rectangle=0,<ch_orange2>,[orange2]
+
+rectangle=0,<ch_yellow1>,[yellow1]
+rectangle=0,<ch_yellow2>,[yellow2]
 
 IMAGE  = 0, "icons8-desk-60.png", <ch_white>, 0, NP,100,0,0,0,0,1,1
 IMAGE  = 0, "icons8-desk-60.png", <ch_black>, 0, NP,100,0,0,0,0,1,1
