@@ -57,7 +57,7 @@ canvassize=24,24
 
 {[e_exit]=framelist(che1,cha5,chi5,che9)}
 
-
+[blue1]="#218DCD"
 
 rectangle=0,<ch_white>,#EEEEEE
 rectangle=0,<ch_black>,#BBBBBB
@@ -65,7 +65,7 @@ rectangle=0,<ch_black>,#BBBBBB
 rectangle=0,<ch_red1>,#EE4444
 rectangle=0,<ch_red2>,#BB4444
 
-rectangle=0,<ch_blue1>,#2266FF
+rectangle=0,<ch_blue1>,[blue_1]
 rectangle=0,<ch_blue2>,#3344BB
 
 rectangle=0,<ch_green1>,#22EE22
